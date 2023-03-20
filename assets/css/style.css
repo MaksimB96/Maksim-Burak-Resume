@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* Colors */
+/* -------------------------------------------Colors */
 
 .bg-color-name-title {
     background-color: #676767;
@@ -22,7 +22,7 @@ background-color: #E67E22;
     background-color: #525252;
 }
 
-/* Headings */
+/* -------------------------------------------Headings */
 
 header {
     margin: 0;
@@ -60,7 +60,7 @@ header {
     color: #ffff;
 }
 
-/* !important to oveerride the new bootstrap */
+/* !important to override the new bootstrap */
 
 .list-inline-item:not(:last-child) {
     margin: 0 !important;
@@ -68,6 +68,10 @@ header {
 
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 #nav li {
@@ -90,6 +94,10 @@ header {
     height: 120px;
 }
 
+.menuitem a:hover {
+    text-decoration: none;
+}
+
 .menuitem a i {
     padding-top: 22px;
     display: block;
@@ -108,3 +116,13 @@ header {
     letter-spacing: 2px;
 }
 
+/*------------------------------------------- hover.css */
+
+.hvr-shutter-out-horizontal{
+    background: #d2ca89 !important;
+}
+
+.hvr-shutter-out-horizontal:before {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    height: 120px !important;
+}
